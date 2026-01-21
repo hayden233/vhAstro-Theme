@@ -428,6 +428,20 @@ aside.vh-aside {
         }
       }
     }
+
+    // Vercel Speed Insights
+    &.ad {
+      &>.vh-aside-speed-insights {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        :global(script[data-astro-reused-framework-check]) {
+          display: none;
+        }
+      }
+    }
   }
 }
 
