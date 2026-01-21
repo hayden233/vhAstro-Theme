@@ -5,7 +5,6 @@ import Compress from "@playform/compress";
 import Compressor from "astro-compressor";
 import { defineConfig } from 'astro/config';
 import { fileURLToPath } from 'url';
-import { SpeedInsights } from '@vercel/speed-insights/astro';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 // Markdown 配置================
 import remarkMath from "remark-math";
@@ -20,7 +19,7 @@ import swup from '@swup/astro';
 export default defineConfig({
 	site: SITE_INFO.Site,
 	build: { assets: 'vh_static' },
-	integrations: [SpeedInsights(), swup({
+	integrations: [swup({
 		theme: false,
 		animationClass: "vh-animation-",
 		containers: [".main-inner>.main-inner-content", '.vh-header>.main'],
