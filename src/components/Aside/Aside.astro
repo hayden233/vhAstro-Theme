@@ -18,8 +18,6 @@ const tags = getTags().slice(0, 16);
 const CountInfo = getCountInfo();
 // 最新文章
 const recommendArticles = getRecommendArticles();
-// Vercel Speed Insights 组件
-import { SpeedInsights } from "@vercel/speed-insights/astro";
 // 侧边栏样式
 import "./Aside.less";
 ---
@@ -145,12 +143,5 @@ import "./Aside.less";
 			)
 		}
 
-		<!-- Vercel Speed Insights 块 -->
-		<section class="vh-aside-item ad">
-			<h3>网站性能监测</h3>
-			<div class="vh-aside-speed-insights">
-				<SpeedInsights />
-			</div>
-		</section>
 	</section>
 </aside>
