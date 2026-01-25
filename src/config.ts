@@ -2,7 +2,7 @@ export default {
   // 网站标题
   Title: 'Hayden的博客',
   // 网站地址
-  Site: 'https://www.vvhan.com',
+  Site: 'https://www.taitai.me',
   // 网站副标题
   Subtitle: '不曾与你分享的时间,我在进步.',
   // 网站描述
@@ -61,8 +61,7 @@ export default {
   WebSites: [
     // 仅支持 SVG 且 SVG 需放在 public/assets/images/svg/ 目录下，填入文件名即可 <不需要文件后缀名>（封装了 SVG 组件 为了极致压缩 SVG）
     // 建议使用 https://tabler.io/icons 直接下载 SVG
-    { text: 'Github', link: 'https://github.com/uxiaohan', icon: 'WebSite_github' },
-    { text: '韩小韩API', link: 'https://api.vvhan.com', icon: 'WebSite_api' },
+    { text: 'Github', link: 'https://github.com/hayden233', icon: 'WebSite_github' },
     { text: '每日热榜', link: 'https://hot.vvhan.com', icon: 'WebSite_hot' },
     { text: '骤雨重山图床', link: 'https://wp-cdn.4ce.cn', icon: 'WebSite_img' },
     { text: 'HanAnalytics', link: 'https://analytics.vvhan.com', icon: 'WebSite_analytics' },
@@ -105,12 +104,6 @@ export default {
   // Han Analytics 统计（https://github.com/uxiaohan/HanAnalytics）
   HanAnalytics: { enable: true, server: 'https://analytics.vvhan.com', siteId: 'Hello-HanHexoBlog' },
   // 文章内赞赏码
-  Reward: {
-    // 支付宝收款码
-    AliPay: '/assets/images/alipay.webp',
-    // 微信收款码
-    WeChat: '/assets/images/wechat.webp'
-  },
   // 访问网页 自动推送到搜索引擎
   SeoPush: {
     enable: false,
