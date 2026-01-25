@@ -103,7 +103,6 @@ export default {
   },
   // Han Analytics 统计（https://github.com/uxiaohan/HanAnalytics）
   HanAnalytics: { enable: true, server: 'https://analytics.vvhan.com', siteId: 'Hello-HanHexoBlog' },
-  // 文章内赞赏码
   // 访问网页 自动推送到搜索引擎
   SeoPush: {
     enable: false,
